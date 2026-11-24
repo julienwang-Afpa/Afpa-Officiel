@@ -1,0 +1,11 @@
+{
+  "name": "course-beaujolais",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "^11.1.9"
+  },
+  "scripts": {
+    "test": "node --test tests/equipes.test.mjs tests/quiz.test.mjs tests/survie.test.mjs tests/tonneau.test.mjs"
+  }
+}

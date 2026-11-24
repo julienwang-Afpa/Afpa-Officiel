@@ -1,0 +1,16 @@
+{
+  "name": "course-beaujolais",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "11.1.9"
+  },
+  "scripts": {
+    "test": "node --test tests/equipes.test.mjs tests/quiz.test.mjs tests/survie.test.mjs tests/tonneau.test.mjs"
+  },
+  "overrides": {
+    "@netlify/otel": "7.0.8",
+    "@netlify/dev-utils": "6.1.0",
+    "@netlify/runtime-utils": "3.0.1"
+  }
+}
